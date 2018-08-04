@@ -1,0 +1,59 @@
+ #Calculador de procrastinação ou de tempo perdido.
+
+def fc_tempo_objeto():
+	objeto = str(input("Informe o tipo de objeto com que você gastou seu tempo_ "))
+	tempo = float(input("Informe quanto tempo vc gastou com {}.".format(objeto)))
+	itens = []
+	itens = objeto
+	tempo_gasto = []
+	tempo_gasto = tempo
+	lista = {}
+	lista = itens, tempo_gasto
+	lista = {'OBJETOS': itens ,'TEMPO PERDIDO': tempo_gasto}
+
+
+
+itens = []
+tempo_gasto = []
+lista = {}
+
+def func_tempo_objeto():
+	x = 'S'	
+	
+		objeto = str(input("Informe o tipo de objeto com que você gastou seu tempo -> "))
+		tempo = float(input("Informe quanto tempo vc gastou com {}. ".format(objeto)))
+	
+		itens = objeto
+		tempo_gasto = tempo
+
+		lista = itens, tempo_gasto
+		lista = {'OBJETOS': itens ,'TEMPO PERDIDO': tempo_gasto}
+		x = str(input("""
+		Tem mais itens para adicionar?
+		Digite: S ou N  """))
+	
+		lista = lista + lista
+		return lista
+
+
+
+x = 'S'
+def func_tempo_objeto():
+	objeto = str(input("Informe o tipo de objeto com que você gastou seu tempo -> "))
+	tempo = float(input("Informe quanto tempo vc gastou com {}. ".format(objeto)))
+	itens = objeto
+	tempo_gasto = tempo
+	lista = itens, tempo_gasto
+	lista = {'OBJETOS': itens ,'TEMPO PERDIDO': tempo_gasto}
+	lista = lista
+	return lista
+
+while x.upper() == 'S':
+	func_tempo_objeto()
+	x = str(input("""
+		Tem mais itens para adicionar?
+		Digite: S ou N  """))
+
+
+
+
